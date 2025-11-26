@@ -7,7 +7,7 @@ default:
 
 build:
     Write-Host "Building go-htpdate-win.exe..."
-    go build -buildvcs=false -o go-htpdate-win.exe go-htpdate-win.go
+    go build -ldflags="-s -w" -buildvcs=false -o go-htpdate-win.exe go-htpdate-win.go
 
 clean:
     Write-Host "Cleaning build artifacts..."
