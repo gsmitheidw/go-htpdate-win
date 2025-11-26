@@ -10,7 +10,7 @@ go-htpdate-win is a lightweight Windows utility written in Go that queries HTTP(
 * Optionally set the local system time to the average server time.
 * Daemon mode: run a local NTP server on 127.0.0.1:123 using HTTP time sources.
 * Minimal dependencies: single executable, portable on Windows.
-* Packed with upx for smaller binary
+* Can be packed with upx for smaller binary (build required needs go and upx)
 
 ## Usage
 
