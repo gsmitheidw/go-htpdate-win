@@ -37,7 +37,7 @@ Options:
   -q          Query only, print server times and offsets (default)
   -s          Set local system time to average of server times
   -d          Debug output
-  -D          Daemon mode: serve NTP on localhost:123
+  -D          Daemon mode: serve NTP on localhost:123 (use with -i)
   -i <secs>   Poll interval for daemon mode (default 1)
   -h          Show this help
 `)
